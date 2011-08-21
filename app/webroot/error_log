@@ -1,0 +1,118 @@
+[01-Jun-2011 13:34:07] PHP Fatal error:  Call to a member function findAll() on a non-object in /home/siteat/public_html/app/controllers/provincias_controller.php on line 7
+[01-Jun-2011 16:01:49] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/siteat/public_html/app/controllers/provincias_controller.php on line 6
+[01-Jun-2011 16:14:20] PHP Parse error:  syntax error, unexpected '}' in /home/siteat/public_html/app/controllers/paises_controller.php on line 20
+[01-Jun-2011 16:14:38] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/paises_controller.php on line 8
+[01-Jun-2011 16:15:39] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/paises_controller.php on line 9
+[03-Jun-2011 11:46:16] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/siteat/public_html/app/config/bootstrap.php on line 51
+[03-Jun-2011 11:47:22] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/paises_controller.php on line 9
+[03-Jun-2011 14:06:51] PHP Parse error:  syntax error, unexpected T_IS_EQUAL, expecting ')' in /home/siteat/public_html/app/controllers/paises_controller.php on line 12
+[03-Jun-2011 14:38:45] PHP Fatal error:  Class 'Pais' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[04-Jun-2011 01:10:49] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:12:33] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:01] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:06] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:09] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:10] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:10] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:16] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:17] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:34] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:39] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:40] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:40] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:44] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:13:45] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:45] PHP Fatal error:  Class 'View' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 879
+[04-Jun-2011 01:13:45] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:14:02] PHP Fatal error:  Class 'ClassRegistry' not found in /home/siteat/public_html/cake/libs/controller/controller.php on line 635
+[04-Jun-2011 01:14:48] PHP Parse error:  syntax error, unexpected '*', expecting T_FUNCTION in /home/siteat/public_html/app/controllers/paises_controller.php on line 18
+[12-Jun-2011 14:47:50] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 14:47:55] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 14:48:22] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 14:49:36] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 14:49:59] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 14:52:23] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 14:53:57] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 8
+[12-Jun-2011 15:22:08] PHP Parse error:  syntax error, unexpected '<' in /home/siteat/public_html/app/views/codigos_postales/add.ctp on line 6
+[12-Jun-2011 15:35:09] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 18
+[12-Jun-2011 15:35:26] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 18
+[12-Jun-2011 15:41:00] PHP Parse error:  syntax error, unexpected ')' in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 18
+[16-Jun-2011 17:15:16] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 27
+[16-Jun-2011 17:16:20] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 27
+[16-Jun-2011 17:24:16] PHP Fatal error:  Call to a member function delete() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 43
+[16-Jun-2011 17:26:54] PHP Fatal error:  Call to a member function create() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 51
+[16-Jun-2011 17:33:44] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:35:08] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:36:03] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:36:05] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:36:11] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:37:48] PHP Fatal error:  Call to a member function create() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 52
+[16-Jun-2011 17:39:56] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/views/codigos_postales/add.ctp on line 6
+[16-Jun-2011 17:56:47] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:57:38] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 17:57:57] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 18:01:24] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 18:03:48] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 18:04:13] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 18:04:22] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 18:04:29] PHP Fatal error:  Call to a member function find() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 50
+[16-Jun-2011 18:05:06] PHP Fatal error:  Call to a member function save() on a non-object in /home/siteat/public_html/app/controllers/codigospostales_controller.php on line 53
+[16-Jun-2011 18:17:41] PHP Parse error:  syntax error, unexpected T_ECHO in /home/siteat/public_html/app/views/codigos_postales/view.ctp on line 8
+[10-Aug-2011 10:29:53] PHP Parse error:  syntax error, unexpected '}' in /home/siteat/public_html/app/views/layouts/default.ctp on line 58
+[10-Aug-2011 10:30:49] PHP Fatal error:  Call to undefined function  listar_directorios_ruta() in /home/siteat/public_html/app/views/layouts/default.ctp on line 52
+[10-Aug-2011 10:31:55] PHP Fatal error:  Call to undefined function  listar_directorios_ruta() in /home/siteat/public_html/app/views/layouts/default.ctp on line 53
+[10-Aug-2011 10:44:07] PHP Parse error:  syntax error, unexpected T_IF in /home/siteat/public_html/app/views/layouts/default.ctp on line 48
+[10-Aug-2011 10:44:14] PHP Parse error:  syntax error, unexpected T_IF in /home/siteat/public_html/app/views/layouts/default.ctp on line 48
+[10-Aug-2011 15:21:40] PHP Fatal error:  Call to undefined function  stor() in /home/siteat/public_html/app/views/layouts/default.ctp on line 55
+[10-Aug-2011 18:25:32] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/siteat/public_html/app/models/ciudad.php on line 22
+[10-Aug-2011 18:42:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/siteat/public_html/app/config/bootstrap.php on line 61
+[10-Aug-2011 18:57:21] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/siteat/public_html/app/models/ciudad.php on line 22
+[10-Aug-2011 19:06:11] PHP Fatal error:  Class 'Cpostal' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[11-Aug-2011 00:12:08] PHP Fatal error:  Class 'Tcontacto' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[11-Aug-2011 14:01:07] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/siteat/public_html/app/models/cpostal.php on line 13
+[11-Aug-2011 14:07:07] PHP Parse error:  syntax error, unexpected ')', expecting T_FUNCTION in /home/siteat/public_html/app/models/cpostal.php on line 20
+[11-Aug-2011 14:14:11] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:14:25] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:14:28] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:14:34] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 1901
+[11-Aug-2011 14:15:44] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:15:48] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:15:52] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:19:44] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:20:28] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:23:05] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 14:23:18] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 15:15:23] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/siteat/public_html/app/models/pais.php on line 12
+[11-Aug-2011 16:37:20] PHP Fatal error:  Cannot redeclare Contacto::$hasMany in /home/siteat/public_html/app/models/contacto.php on line 16
+[11-Aug-2011 16:58:37] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 17:00:42] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 17:02:50] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[11-Aug-2011 17:03:08] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 12:02:00] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 12:29:05] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 12:29:13] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 12:33:48] PHP Parse error:  syntax error, unexpected '/', expecting T_FUNCTION in /home/siteat/public_html/app/models/contacto.php on line 6
+[12-Aug-2011 12:34:40] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 16:52:52] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 17:02:02] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 17:02:09] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 17:02:25] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 17:03:41] PHP Fatal error:  Cannot access empty property in /home/siteat/public_html/cake/libs/model/model.php on line 2917
+[12-Aug-2011 17:16:09] PHP Parse error:  syntax error, unexpected '<', expecting T_FUNCTION in /home/siteat/public_html/app/models/grupo.php on line 23
+[12-Aug-2011 17:16:11] PHP Parse error:  syntax error, unexpected '<', expecting T_FUNCTION in /home/siteat/public_html/app/models/grupo.php on line 23
+[13-Aug-2011 11:54:24] PHP Fatal error:  Class 'AppModel' not found in /home/siteat/public_html/app/controllers/denominaciones_controller.php on line 3
+[13-Aug-2011 11:54:30] PHP Fatal error:  Class 'AppModel' not found in /home/siteat/public_html/app/controllers/tdocumentos_controller.php on line 3
+[13-Aug-2011 11:54:34] PHP Fatal error:  Class 'AppModel' not found in /home/siteat/public_html/app/controllers/iibb_controller.php on line 3
+[13-Aug-2011 11:54:51] PHP Fatal error:  Call to a member function charset() on a non-object in /home/siteat/public_html/app/controllers/empresas_controller.php on line 23
+[13-Aug-2011 12:02:46] PHP Fatal error:  Class 'Iibb' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[13-Aug-2011 12:03:21] PHP Fatal error:  Class 'Iva' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[13-Aug-2011 12:03:26] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/siteat/public_html/app/models/tdocumento.php on line 8
+[13-Aug-2011 12:04:16] PHP Fatal error:  Class 'Denominacion' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[13-Aug-2011 12:04:20] PHP Fatal error:  Class 'Denominacion' not found in /home/siteat/public_html/cake/libs/class_registry.php on line 142
+[13-Aug-2011 12:05:57] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/siteat/public_html/app/models/tdocumento.php on line 8
+[15-Aug-2011 11:03:52] PHP Fatal error:  Cannot redeclare config() (previously declared in /home/siteat/public_html/cake/basics.php:58) in /home/siteat/public_html/cake/basics.php on line 75
+[15-Aug-2011 11:04:21] PHP Fatal error:  Cannot redeclare config() (previously declared in /home/siteat/public_html/cake/basics.php:58) in /home/siteat/public_html/cake/basics.php on line 75
+[15-Aug-2011 11:05:00] PHP Fatal error:  Cannot redeclare config() (previously declared in /home/siteat/public_html/cake/basics.php:58) in /home/siteat/public_html/cake/basics.php on line 75
+[15-Aug-2011 19:55:20] PHP Fatal error:  Cannot redeclare config() (previously declared in /home/siteat/public_html/cake/basics.php:58) in /home/siteat/public_html/cake/basics.php on line 75
+[15-Aug-2011 20:05:19] PHP Fatal error:  Call to a member function link() on a non-object in /home/siteat/public_html/app/views/pages/home.ctp on line 2
+[15-Aug-2011 20:06:25] PHP Fatal error:  Call to a member function link() on a non-object in /home/siteat/public_html/app/views/layouts/default.ctp on line 31
