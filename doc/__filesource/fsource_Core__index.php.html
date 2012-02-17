@@ -1,0 +1,117 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>File Source for index.php</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">Core</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../classtrees_Core.html" class="menu">class tree: Core</a> ]
+		  [ <a href="../elementindex_Core.html" class="menu">index: Core</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Paquetes:</b><br />
+              <a href="../li_Core.html">Core</a><br />
+            <br /><br />
+                  
+      
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1 align="center">Source for file index.php</h1>
+<p>Documentation is available at <a href="../Core/_index.php.html">index.php</a></p>
+<div class="src-code">
+<ol><li><div class="src-line"><a name="a1"></a><span class="src-php">&lt;?php</span></div></li>
+<li><div class="src-line"><a name="a2"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a3"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a4"></a><span class="src-doc">&nbsp;*&nbsp;Inicio.</span></div></li>
+<li><div class="src-line"><a name="a5"></a><span class="src-doc">&nbsp;*</span></div></li>
+<li><div class="src-line"><a name="a6"></a><span class="src-doc">&nbsp;*&nbsp;Este&nbsp;script&nbsp;es&nbsp;llamado&nbsp;en&nbsp;primera&nbsp;instancia&nbsp;y&nbsp;pone&nbsp;en&nbsp;funcionamiento&nbsp;todo&nbsp;el&nbsp;programa.</span></div></li>
+<li><div class="src-line"><a name="a7"></a><span class="src-doc">&nbsp;*</span></div></li>
+<li><div class="src-line"><a name="a8"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@package</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;Core</span></div></li>
+<li><div class="src-line"><a name="a9"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@author</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mauricio&nbsp;Panuncio(@panuweb)&nbsp;&lt;panuweb@yahoo.com.ar&gt;</span></div></li>
+<li><div class="src-line"><a name="a10"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@license</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;http://www.opensource.org/licenses/lgpl-license.php&nbsp;LGPL</span></div></li>
+<li><div class="src-line"><a name="a11"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@link</span><span class="src-doc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.ateneaerp.com.ar</span></div></li>
+<li><div class="src-line"><a name="a12"></a><span class="src-doc">&nbsp;*&nbsp;</span><span class="src-doc-coretag">@filesource</span></div></li>
+<li><div class="src-line"><a name="a13"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a14"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a15"></a><span class="src-doc">&nbsp;*&nbsp;Establece&nbsp;las&nbsp;Rutas&nbsp;del&nbsp;Servidor</span></div></li>
+<li><div class="src-line"><a name="a16"></a><span class="src-doc">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a17"></a><span class="src-doc">&nbsp;*&nbsp;Vamos&nbsp;a&nbsp;tratar&nbsp;de&nbsp;determinar&nbsp;la&nbsp;ruta&nbsp;completa&nbsp;de&nbsp;servidor&nbsp;a&nbsp;la</span></div></li>
+<li><div class="src-line"><a name="a18"></a><span class="src-doc">&nbsp;*&nbsp;carpeta&nbsp;&quot;system&quot;&nbsp;con&nbsp;el&nbsp;fin&nbsp;de&nbsp;reducir&nbsp;la&nbsp;posibilidad&nbsp;de&nbsp;problemas&nbsp;de&nbsp;ruta.</span></div></li>
+<li><div class="src-line"><a name="a19"></a><span class="src-doc">&nbsp;*</span></div></li>
+<li><div class="src-line"><a name="a20"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a21"></a><span class="src-key">if&nbsp;</span><span class="src-sym">(</span><a href="http://www.php.net/function_exists">function_exists</a><span class="src-sym">(</span><span class="src-str">'realpath'</span><span class="src-sym">)&nbsp;</span><span class="src-key">AND&nbsp;</span><span class="src-sym">@</span><a href="http://www.php.net/realpath">realpath</a><span class="src-sym">(</span><a href="http://www.php.net/dirname">dirname</a><span class="src-sym">(</span>__FILE__<span class="src-sym">))&nbsp;</span>!==&nbsp;<span class="src-id">FALSE</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a22"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$system_folder&nbsp;</span>=&nbsp;<a href="http://www.php.net/str_replace">str_replace</a><span class="src-sym">(</span><span class="src-str">&quot;\\&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;/&quot;</span><span class="src-sym">,&nbsp;</span><a href="http://www.php.net/realpath">realpath</a><span class="src-sym">(</span><a href="http://www.php.net/dirname">dirname</a><span class="src-sym">(</span>__FILE__<span class="src-sym">)))</span>.<span class="src-str">'/'</span>.<span class="src-var">$system_folder</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a23"></a><span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a24"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a25"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a26"></a><span class="src-doc">*&nbsp;Define&nbsp;la&nbsp;Estención&nbsp;del&nbsp;Archivo.&nbsp;Comunmente&nbsp;&quot;.php&quot;</span></div></li>
+<li><div class="src-line"><a name="a27"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a28"></a><a href="http://www.php.net/define">define</a><span class="src-sym">(</span><span class="src-str">'EXT'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'.'</span>.<span class="src-id">pathinfo</span><span class="src-sym">(</span>__FILE__<span class="src-sym">,&nbsp;</span><span class="src-id">PATHINFO_EXTENSION</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a29"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a30"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a31"></a><span class="src-doc">*&nbsp;Define&nbsp;la&nbsp;ruta&nbsp;completa&nbsp;a&nbsp;este&nbsp;Archivo</span></div></li>
+<li><div class="src-line"><a name="a32"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a33"></a><a href="http://www.php.net/define">define</a><span class="src-sym">(</span><span class="src-str">'FCPATH'</span><span class="src-sym">,&nbsp;</span>__FILE__<span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a34"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a35"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a36"></a><span class="src-doc">*&nbsp;Define&nbsp;el&nbsp;nombre&nbsp;de&nbsp;ESTE&nbsp;archivo.&nbsp;Comunmente&nbsp;&quot;index.php&quot;</span></div></li>
+<li><div class="src-line"><a name="a37"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a38"></a><a href="http://www.php.net/define">define</a><span class="src-sym">(</span><span class="src-str">'SELF'</span><span class="src-sym">,&nbsp;</span><span class="src-id">pathinfo</span><span class="src-sym">(</span>__FILE__<span class="src-sym">,&nbsp;</span><span class="src-id">PATHINFO_BASENAME</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a39"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a40"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a41"></a><span class="src-doc">*&nbsp;Define&nbsp;la&nbsp;Ruta&nbsp;completa&nbsp;a&nbsp;la&nbsp;carpeta&nbsp;&quot;system&quot;</span></div></li>
+<li><div class="src-line"><a name="a42"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a43"></a><a href="http://www.php.net/define">define</a><span class="src-sym">(</span><span class="src-str">'BASEPATH'</span><span class="src-sym">,&nbsp;</span><span class="src-var">$system_folder</span>.<span class="src-str">'/'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a44"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a45"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a46"></a><span class="src-doc">*&nbsp;Incluimos&nbsp;las&nbsp;Funciones&nbsp;Principales</span></div></li>
+<li><div class="src-line"><a name="a47"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a48"></a><span class="src-inc">require_once</span><span class="src-sym">(&nbsp;</span><span class="src-id">BASEPATH</span>.<span class="src-str">'lib/funciones.php'&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a49"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a50"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a51"></a><span class="src-doc">*&nbsp;Incluimos&nbsp;la&nbsp;Autenticación</span></div></li>
+<li><div class="src-line"><a name="a52"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a53"></a>require<span class="src-sym">(&nbsp;</span><span class="src-id">BASEPATH</span>.<span class="src-str">'lib/auth.php'&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a54"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a55"></a><span class="src-doc">/**</span></div></li>
+<li><div class="src-line"><a name="a56"></a><span class="src-doc">*&nbsp;Incluimos&nbsp;la&nbsp;Interface</span></div></li>
+<li><div class="src-line"><a name="a57"></a><span class="src-doc">*/</span></div></li>
+<li><div class="src-line"><a name="a58"></a>require<span class="src-sym">(&nbsp;</span><span class="src-id">BASEPATH</span>.<span class="src-str">'lib/interface.php'&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a59"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a60"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a61"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a62"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a63"></a><span class="src-php">?&gt;</span></div></li>
+</ol>
+</div>
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Wed, 08 Feb 2012 18:41:08 -0300 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
