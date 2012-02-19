@@ -58,20 +58,14 @@ require_once( LIBPHP.'funciones.php' );
 require( LIBPHP.'auth.php' );
 
 
-$parametros = explode('||',$_POST['param']);
+$tipo = $_POST['tipo'];
+$data = $_POST['data'];
 
-foreach($parametros as $param){
-	$temp = explode('=',$param);
-	$temp2[$temp[0]] = $temp[1];
-}
-
-$parametros = $temp2;
-	
-switch ($parametros['tipo']) {
+switch ($tipo) {
 	case 'modulo':
-		$ruta_modulo = MOD.$parametros['data'].'/index.php';
+		$ruta_modulo = MOD.'mod_'.$data.'/mod_'.$data.'.php';
 		if(file_exists($ruta_modulo)){ include($ruta_modulo);}
-		else {echo "No se encuentra el Módulo";}
+		else {echo "Error,|@|No se encuentra el Módulo";}
 	break;
 	
 	default:

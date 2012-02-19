@@ -7,7 +7,7 @@ function cargador(tipo, data) {
 	$.ajax({
 		async:false,
 		contentType: "application/x-www-form-urlencoded",
-		data: "param=tipo="+tipo+'||data='+data,
+		data: "tipo="+tipo+'&data='+data,
 		dataType: "html",
 		global: true,
 		ifModified: false,
@@ -32,27 +32,27 @@ switch(llamada){
 		alert("Pasó lo siguiente: "+message);
 		alert("El servidor respondió: \n"+httpstatus);
 	break;
-	case 'success':
+	case 'success':		
 		if(tipo == 'modulo'){
-			title = message;
-			title = title.substring(0,title.indexOf('|@|'));
-			if(message=="success"){ $('#title').html(title); }
+			parametros = message.substring(0,message.indexOf('|@|')).split(',');
+
+			$('#title').html(parametros[0]);
 
 			if (!$('#mod_css').length){ $("head").append("<link id='mod_css'>"); }
 			css = $("#mod_css");
 			css.attr({
 				rel:  "stylesheet",
 				type: "text/css",
-				href: "/modulos/"+data+"/estilos.css"
+				href: "/modulos/mod_"+data+"/mod_"+data+".css"
 			});
 
-			$.getScript("/modulos/"+data+"/js.js", function(){ return true; });
-		}
+			$.getScript("/modulos/mod_"+data+"/mod_"+data+".js", function(){ return true; });
 
-		datos = message.substring(message.indexOf('|@|')+3);
-		$('#cargador').html( datos );
-		//ver la forma de hacer una funcion que incluya todas las funciones que se activan al cargar la pagina, para que al momento de usar ayax se activen de nuevo
-		$('select.fancy').chosen();
+			$('#cargador').html( message.substring(message.indexOf('|@|')+3) );
+
+			//ver la forma de hacer una funcion que incluya todas las funciones que se activan al cargar la pagina, para que al momento de usar ayax se activen de nuevo
+			$('select.fancy').chosen();
+		}
 	break;
 }
 }
