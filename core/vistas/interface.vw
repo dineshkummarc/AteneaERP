@@ -25,7 +25,8 @@
    		<form action="/login.html" method="POST" id="logout">
    			
 			<input type="hidden" value="1" name="logout" />
-			<input type="submit" value="Desconectarse" />
+			<button type="submit" id="submit" class="small blue pop"><span class="icon small white" data-icon="Q"></span>Salir</button>
+			
 		</form>
 		<div id="cargando">Cargando...</div>
 		<div id="title">Facturación</div>

@@ -4,8 +4,15 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<title>ATENEA ERP - Acceso</title>
-	<link rel="stylesheet" type="text/css" href="core/css/auth.css" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="core/js/prettify.js"></script>
+	<script type="text/javascript" src="core/js/kickstart.js"></script>
 	
+	<link rel="stylesheet" type="text/css" href="core/css/kickstart.css" />
+	<link rel="stylesheet" type="text/css" href="core/css/auth.css" />
+
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="core/js/prefixfree.min.js"></script>
 	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -20,17 +27,14 @@
 	</header>
 	<section>
 		<article>
-		<form action="login.html" method="POST" id="login">
-			<fieldset>
+		<form action="login.html" method="POST" id="login" class="vertical">
+			<div class="col_2 center_form">
 				<div id="error"><?php echo $error ?></div>
-				<label for="user">Usuario</label>
 				<input type="text" name="user" id="user" autocomplete="on" required placeholder="Usuario"/>
-				
-				<label for="pass">Contrase&ntilde;a</label>
 				<input type="password" name="pass" id="pass" required placeholder="Contrase&ntilde;a" autocomplete="off"/>
-				
-				<input type="submit" id="submit" value="Acceder" />
-			</fieldset>
+				<!--<button type="submit" id="submit" value="Acceder" class="small" />-->
+				<button type="submit" id="submit" class="blue pop center_button">Acceder</button>
+			</div>
 		</form>
 
 		</article>

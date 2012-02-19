@@ -7,19 +7,13 @@ body, html {width: 100%; height:100%;}
 @font-face { font-family: "fennario"; src: url("http://demo.ateneaerp.com.ar/core/fuentes/fennario.ttf"); }
 @font-face { font-family: "korean"; src: url("http://demo.ateneaerp.com.ar/core/fuentes/korean.ttf"); }
 
+article { width:100%; }
+
 body { 
 	background:#E6EFFF;
 	color:#000; 
 	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
 	font-size:16px;
-}
-
-fieldset { width:100%; }
-
-form {
-	font-size:24px;
-	margin: 1em auto;
-	width: 12em;
 }
 
 header {
@@ -28,43 +22,6 @@ header {
 	box-shadow: 0px 0.1em 1em rgba(0, 0, 0, 0.5);
 	margin: 0 auto 0;
 }
-
-input {
-	background:#fff;
-	border-radius:.5em;
-	border:1px solid #ddd;
-	box-shadow: 0px 1px 1px #fff, 0px 1px 0px #bbb inset;
-	color:#333;
-	font-size:0.8em;
-	height:1.8em;
-	line-height:1.8em;
-	margin:0.3em 0;
-	outline:none; 
-	padding:.3em .5em .2em;
-	width:14em;
-}
-
-input[type="checkbox"] { width:auto; }
-
-input[type="submit"] { 
-	background: linear-gradient(top, #fff 0%,#efefef 100%);
-	border: none;
-	box-shadow:0px 1px 5px #333;
-	color:#999;
-	cursor:pointer;
-	font-size: 0.8em;
-	height: 1.7em;
-	line-height: 1.3em;
-	margin: 0.5em 4.75em;
-	padding: 0;
-	width: 4.5em;
-}
-
-input[type="submit"]:hover { box-shadow:0px 1px 5px #333 inset; }
-
-input[type="text"], input[type="password"] { cursor:text; }
-
-label { display: none;}
 
 #logo {
 	color: #06266f;
@@ -75,6 +32,8 @@ label { display: none;}
 	text-align: center;
  	text-shadow: 0px 0px 0.1em #000;
 }
+
+#logo h1 {	font-size: 80px; margin:0;line-height: 1.2em;}
 
 #logo h1 span { 
 	color: #ffaa00;
@@ -96,3 +55,12 @@ label { display: none;}
 	line-height: 14px;
 	width:13em;
 }
+
+#login { font-size: 27px; }
+
+#login input::-webkit-input-placeholder { font-size: 20px; padding: 5px; }
+
+#login input:-moz-placeholder { font-size: 20px; padding: 5px; } 
+
+.center_form{ margin: 3em auto 0; float:none;}
+.center_button{ margin: 0 35%; width: 30%; float:none;}
