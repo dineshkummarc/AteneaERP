@@ -7,7 +7,7 @@
 		<input type="text" name="options" id="options" placeholder="Opciones" />
 		<select id="admin" class="fancy" style="width:75px;">
 			<option value="1">Si</option>
-			<option velue"0" selected="selected">No</option>
+			<option velue="0" selected="selected">No</option>
 		</select>
 		<button type="button" class="small pop blue">Añadir</button>
 	</fieldset>
