@@ -57,24 +57,20 @@ require_once( LIBPHP.'funciones.php' );
 */
 require( LIBPHP.'auth.php' );
 
+$tipo   = $_POST['tipo'];
+$modulo = $_POST['modulo'];
+$data   = $_POST['data'];
 
-$tipo = $_POST['tipo'];
-$data = $_POST['data'];
-
-switch ($tipo) {
-	case 'modulo':
-		$ruta_modulo = MOD.'mod_'.$data.'/mod_'.$data.'.php';
-		if(file_exists($ruta_modulo)){ include($ruta_modulo);}
-		else {echo "Error,|@|No se encuentra el Módulo";}
-	break;
-	
-	default:
-		//echo 'ERROR: Parametros: <br /><br />';
-		//foreach($parametros as $param => $clave){ echo $clave, ' = ', $param, '<br />'; }
-		/**
-		 * Incluimos la Interface
-		 */
-		require( LIBPHP.'interface.php' );
-	break;
+if ($modulo == '') {
+	//echo 'ERROR: Parametros: <br /><br />';
+	//foreach($parametros as $param => $clave){ echo $clave, ' = ', $param, '<br />'; }
+	/**
+	 * Incluimos la Interface
+	 */
+	require( LIBPHP.'interface.php' );
+}else{
+	$ruta_modulo = MOD.'mod_'.$modulo.'/mod_'.$modulo.'.php';
+	if(file_exists($ruta_modulo)){ include($ruta_modulo);}
+	else {echo "Error,|@|No se encuentra el Módulo";}
 }
 ?>
