@@ -13,9 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="core/css/kickstart.css" />
 	<link rel="stylesheet" type="text/css" href="core/css/auth.css" />
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="core/js/prefixfree.min.js"></script>
-	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script type="text/javascript" src="core/js/login.js"></script>
 </head>
 <body>
@@ -29,11 +27,11 @@
 		<article>
 		<form action="login.html" method="POST" id="login" class="vertical">
 			<div class="col_2 center_form">
-				<div id="error"><?php echo $error ?></div>
+				<at:error />
 				<input type="text" name="user" id="user" autocomplete="on" required placeholder="Usuario"/>
 				<input type="password" name="pass" id="pass" required placeholder="Contrase&ntilde;a" autocomplete="off"/>
-				<!--<button type="submit" id="submit" value="Acceder" class="small" />-->
 				<button type="submit" id="submit" class="blue pop center_button">Acceder</button>
+				
 			</div>
 		</form>
 
