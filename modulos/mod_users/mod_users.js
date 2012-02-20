@@ -4,5 +4,11 @@ $('#add_user button').click(function(){
 	datos += '&&&' + $('#add_user select#grupos').val();
 	datos += '&&&' + $('#add_user input#options').val();
 	datos += '&&&' + $('#add_user select#admin').val();
-	alert(datos)
+	//alert(datos);
+
+	cargador('process', 'users', datos)
 })
+
+function recibe_process(datos){
+	alert('888' + datos)
+}
