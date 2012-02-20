@@ -25,13 +25,12 @@
 	</header>
 	<section>
 		<article>
-		<form action="login.html" method="POST" id="login" class="vertical">
-			<div class="col_2 center_form">
-				<at:error />
-				<input type="text" name="user" id="user" autocomplete="on" required placeholder="Usuario"/>
-				<input type="password" name="pass" id="pass" required placeholder="Contrase&ntilde;a" autocomplete="off"/>
-				<button type="submit" id="submit" class="blue pop center_button">Acceder</button>
-				
+		<form id="login" class="vertical">
+			<div class="col_2 center_form"> 
+				<div id="error"></div><!--<at:error /><!-- Mensaje de Error -->
+				<input type="text"     name="user" id="user" placeholder="Usuario"/>
+				<input type="password" name="pass" id="pass" placeholder="Contrase&ntilde;a" />
+				<button type="button" id="submit" class="blue pop center_button">Acceder</button>
 			</div>
 		</form>
 

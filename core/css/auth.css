@@ -23,6 +23,12 @@ header {
 	margin: 0 auto 0;
 }
 
+#cargando {
+	background: url('../images/icons/ajax-loader.gif') no-repeat center center;
+	width: 100%;
+	height: 25px;
+}
+
 #logo {
 	color: #06266f;
 	font-family: 'korean';
@@ -60,3 +66,19 @@ header {
 
 .center_form{ margin: 3em auto 0; float:none;}
 .center_button{ margin: 0 35%; width: 30%; float:none;}
+
+/* FOCUS STATES */
+input[type="text"]:focus.error,
+input[type="password"]:focus.error,
+textarea:focus.error,
+button:focus.error,
+a.button:focus.error,
+select:focus.error,
+input[type="file"]:focus.error{
+	-webkit-box-shadow: 0 0 7px red;
+	-moz-box-shadow   : 0 0 7px red;
+	-o-box-shadow     : 0 0 7px red;
+	box-shadow        : 0 0 7px red;
+	border: 1px solid pink;
+	outline: none;
+}

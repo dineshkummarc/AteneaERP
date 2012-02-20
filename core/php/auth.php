@@ -24,14 +24,16 @@ function login_user($user,$pass){
 	$usuario = db_select('user, pass', 'users','user = "'.$user.'"');
 
 	if(count($usuario) === 0) {
-		return 'Usuario Incorrecto';
+		return '0';
 	}else if($usuario[0]['pass'] !== md5($pass)) {
-		return 'Contraseña Incorrecta';
+		return '1';
 	} else {
 		$_SESSION['login'] = true;
 		$_SESSION['user'] = $user;
 
-		header('Location: /');
+		return '2';
+
+		//header('Location: /');
 	}
 }
 
@@ -49,15 +51,10 @@ if($_SESSION['login'] && $_POST['logout']){	logout_user(); }
 if((!$_SESSION['login']|| !isset($_SESSION['login'])) && $_SERVER['REQUEST_URI'] != '/login.html'){ header('Location: login.html'); }
 
 if( ( !$_SESSION['login'] || isset($_SESSION['login']) )  && $_POST['user'] != '' && $_POST['pass'] != '' ) { 
-	$error = '
-		<div id="error" class="notice error error_login">
-			<span class="icon medium" data-icon="X"></span>'
-			.login_user($_POST['user'],$_POST['pass']).
-			'<a href="#close" class="icon close" data-icon="x"></a>
-		</div>';
+	echo login_user($_POST['user'],$_POST['pass']);
 }
 
-if($_SERVER['REQUEST_URI'] == '/login.html'){ 
+if($_SERVER['REQUEST_URI'] == '/login.html' && !$_POST['ajax']){ 
 
 	$fp = fopen('core/vistas/auth.vw',"r");		//Abrimos el archivo en modo lectura
 	while ($linea = fgets($fp,1024)) {	//Leemos linea por linea el contenido del archivo y reemplazamos la palabras claves
@@ -68,5 +65,7 @@ if($_SERVER['REQUEST_URI'] == '/login.html'){
 
 	exit();
 }
+
+if($_POST['ajax']){ exit(); }
 
 ?>
